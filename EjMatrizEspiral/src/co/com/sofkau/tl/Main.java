@@ -5,13 +5,6 @@ public class Main {
 
         MatrizEspiral matriz = new MatrizEspiral();
         matriz.crearMatriz();
-        matriz.llenarMatrizIzquierdaDerecha();
-        matriz.imprimir();
-        matriz.llenarMatrizDerechaIzquierda();
-        matriz.imprimir();
-        matriz.llenarColumnaAscendente();
-        matriz.imprimir();
-        matriz.llenarColumnaDescendente();
-        matriz.imprimir();
+        matriz.mostrarMenu();
     }
 }
